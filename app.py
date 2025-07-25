@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
-st.title("Classification de texte")
+st.title("Classification de log")
 
 user_input = st.text_area("Entrez votre texte ici :")
 
